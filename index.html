@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>n0a16-06.sh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo"></>noa16-06><span>.dev</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="grid-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-greeting">hey, i'm</p>
+        <h1 class="hero-name"><span>noa16-06</span></h1>
+        <p class="hero-role"><span class="typed"></span><span class="cursor"></span></p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="https://github.com/noa16-06" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">about</p>
+        <h2 class="section-title">Who I am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal d1">
+          <p>I'm <em>Noa</em>, a student with a deep passion for <em>cybersecurity</em> and <em>backend development</em>. I love understanding how systems work — and how they can be broken.</p>
+          <p>My days are split between building robust backend services, diving into CTF challenges, and exploring the world of offensive and defensive security.</p>
+          <p>I'm self-taught, driven by curiosity, and always learning. Right now I'm focused on sharpening my skills in network security and writing clean, efficient backend code.</p>
+        </div>
+        <div class="about-stats reveal d2">
+          <div class="stat-card">
+            <div class="stat-number">12+</div>
+            <div class="stat-label">CTFs participated</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Projects built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">2y</div>
+            <div class="stat-label">Years coding</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Hours in the terminal</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="projects-header reveal">
+        <p class="section-label">projects</p>
+        <h2 class="section-title">Things I've built</h2>
+        <p class="section-sub">A mix of security tools, backend services, and experiments.</p>
+      </div>
+      <div class="projects-grid">
+        <a class="project-card reveal d1" href="https://github.com/noa16-06/hashid" target="_blank" rel="noopener">
+          <div class="project-icon">🔍</div>
+          <div class="project-tag">Security</div>
+          <div class="project-name">hashid</div>
+          <div class="project-desc">A command-line tool that identifies hash strings by prefix, length, and charset. Returns ranked candidates with confidence levels and reasoning.</div>
+          <div class="project-stack">
+            <span class="chip">Python</span>
+            <span class="chip">Hash</span>
+            <span class="chip">Cryptography</span>
+          </div>
+        </a>
+        <a class="project-card reveal d2" href="https://github.com/noa16-06/URL-Shortener" target="_blank" rel="noopener">
+          <div class="project-icon">🔐</div>
+          <div class="project-tag">Backend</div>
+          <div class="project-name">URL-Shortener</div>
+          <div class="project-desc">A simple and lightweight URL Shortener API built with Python and FastAPI.
+It allows you to convert long URLs into short ones</div>
+          <div class="project-stack">
+            <span class="chip">Python</span>
+            <span class="chip">FastAPI</span>
+            <span class="chip">Backend</span>
+          </div>
+        </a>
+        <a class="project-card reveal d3" href="https://github.com/noa16-06/" target="_blank" rel="noopener">
+          <div class="project-icon">🏴</div>
+          <div class="project-tag">Security / Writeups</div>
+          <div class="project-name">CTF Writeups</div>
+          <div class="project-desc">Documented solutions to CTF challenges across web exploitation, reverse engineering, and network forensics.</div>
+          <div class="project-stack">
+            <span class="chip">Web</span>
+            <span class="chip">Linux</span>
+            <span class="chip">OSINT</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">skills</p>
+        <h2 class="section-title">My stack</h2>
+        <p class="section-sub">Tools and technologies I work with regularly.</p>
+      </div>
+      <div class="skills-groups">
+        <div class="skill-group reveal d1" data-skills>
+          <div class="skill-group-title">// Security</div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Linux</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="78%"></div></div>
+              <span class="skill-pct">78%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Nmap</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="85%"></div></div>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Wireshark</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="65%"></div></div>
+              <span class="skill-pct">65%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Networking</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="72%"></div></div>
+              <span class="skill-pct">72%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">CTF / OSINT</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="70%"></div></div>
+              <span class="skill-pct">70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-group reveal d2" data-skills>
+          <div class="skill-group-title">// Backend</div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="72%"></div></div>
+              <span class="skill-pct">82%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Git / GitHub</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="56%"></div></div>
+              <span class="skill-pct">60%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Linux / Bash</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="80%"></div></div>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SQL</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="68%"></div></div>
+              <span class="skill-pct">68%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Docker</span>
+              <div class="skill-bar"><div class="skill-fill" data-w="55%"></div></div>
+              <span class="skill-pct">55%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">contact</p>
+        <h2 class="section-title">Get in touch</h2>
+        <p class="section-sub">Have a project, question, or just want to connect?</p>
+      </div>
+      <div class="contact-card reveal d1">
+        <div class="contact-prompt">
+          <span class="contact-prompt-char">$</span>
+          <span class="contact-prompt-cmd">send --to</span>
+          <a href="mailto:milchjunge16@gmail.com" class="contact-email">milchjunge16@gmail.com</a>
+        </div>
+        <a href="mailto:milchjunge16@gmail.com" class="btn btn-primary contact-btn">Send a message</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>Built by <a href="#">noa16-06</a> &nbsp;·&nbsp; <a href="https://github.com" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
